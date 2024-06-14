@@ -1,0 +1,165 @@
+17:06:36.740081 IP (tos 0x0, ttl 64, id 25862, offset 0, flags [none], proto UDP (17), length 152)
+    127.0.0.1.59357 > 127.0.0.1.1812: RADIUS, length: 124
+	Access-Request (1), id: 0x00, Authenticator: c298a69a1e459ca8e5615238ce824112
+	  User-Name Attribute (1), length: 7, Value: priya
+	  NAS-IP-Address Attribute (4), length: 6, Value: 127.0.0.1
+	  Calling-Station-Id Attribute (31), length: 19, Value: 02-00-00-00-00-01
+	  Framed-MTU Attribute (12), length: 6, Value: 1400
+	  NAS-Port-Type Attribute (61), length: 6, Value: Wireless - IEEE 802.11
+	  Service-Type Attribute (6), length: 6, Value: Framed
+	  Connect-Info Attribute (77), length: 24, Value: CONNECT 11Mbps 802.11b
+	  EAP-Message Attribute (79), length: 12, Value: Response (2), id 184, len 10
+		 Type Identity (1), Identity: priya
+	  Message-Authenticator Attribute (80), length: 18, Value: /...?...j...~.U.
+17:06:36.744469 IP (tos 0x0, ttl 64, id 54287, offset 0, flags [none], proto UDP (17), length 108)
+    127.0.0.1.1812 > 127.0.0.1.59357: RADIUS, length: 80
+	Access-Challenge (11), id: 0x00, Authenticator: c2f392cbe33a8ee6a511e5c8bfd85486
+	  EAP-Message Attribute (79), length: 24, Value: Request (1), id 185, len 22
+		 Type MD5-challenge (4)
+	  Message-Authenticator Attribute (80), length: 18, Value: ..b.^k.._|...d45
+	  State Attribute (24), length: 18, Value: .>n'..jg....x.Pk
+17:06:36.746925 IP (tos 0x0, ttl 64, id 25863, offset 0, flags [none], proto UDP (17), length 166)
+    127.0.0.1.59357 > 127.0.0.1.1812: RADIUS, length: 138
+	Access-Request (1), id: 0x01, Authenticator: f8daded101aadb86ff3892c3804afbae
+	  User-Name Attribute (1), length: 7, Value: priya
+	  NAS-IP-Address Attribute (4), length: 6, Value: 127.0.0.1
+	  Calling-Station-Id Attribute (31), length: 19, Value: 02-00-00-00-00-01
+	  Framed-MTU Attribute (12), length: 6, Value: 1400
+	  NAS-Port-Type Attribute (61), length: 6, Value: Wireless - IEEE 802.11
+	  Service-Type Attribute (6), length: 6, Value: Framed
+	  Connect-Info Attribute (77), length: 24, Value: CONNECT 11Mbps 802.11b
+	  EAP-Message Attribute (79), length: 8, Value: Response (2), id 185, len 6
+		 Type Nak (3) unknown (25),
+	  State Attribute (24), length: 18, Value: .>n'..jg....x.Pk
+	  Message-Authenticator Attribute (80), length: 18, Value: .........D.1.o..
+17:06:36.750691 IP (tos 0x0, ttl 64, id 54289, offset 0, flags [none], proto UDP (17), length 92)
+    127.0.0.1.1812 > 127.0.0.1.59357: RADIUS, length: 64
+	Access-Challenge (11), id: 0x01, Authenticator: 019f3dbc334ea398e37dc9c50740e732
+	  EAP-Message Attribute (79), length: 8, Value: Request (1), id 186, len 6
+		 Type unknown (25)
+	  Message-Authenticator Attribute (80), length: 18, Value: .|.......O..>S..
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+17:06:36.754709 IP (tos 0x0, ttl 64, id 25864, offset 0, flags [none], proto UDP (17), length 354)
+    127.0.0.1.59357 > 127.0.0.1.1812: RADIUS, length: 326
+	Access-Request (1), id: 0x02, Authenticator: 31fa2c6d5e378ee7d7cef0083db4a0c7
+	  User-Name Attribute (1), length: 7, Value: priya
+	  NAS-IP-Address Attribute (4), length: 6, Value: 127.0.0.1
+	  Calling-Station-Id Attribute (31), length: 19, Value: 02-00-00-00-00-01
+	  Framed-MTU Attribute (12), length: 6, Value: 1400
+	  NAS-Port-Type Attribute (61), length: 6, Value: Wireless - IEEE 802.11
+	  Service-Type Attribute (6), length: 6, Value: Framed
+	  Connect-Info Attribute (77), length: 24, Value: CONNECT 11Mbps 802.11b
+	  EAP-Message Attribute (79), length: 196, Value: Response (2), id 186, len 194
+		 Type unknown (25)
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+	  Message-Authenticator Attribute (80), length: 18, Value: W#"`...tdH|..?.U
+17:06:36.764667 IP (tos 0x0, ttl 64, id 54293, offset 0, flags [none], proto UDP (17), length 1096)
+    127.0.0.1.1812 > 127.0.0.1.59357: RADIUS, length: 1068
+	Access-Challenge (11), id: 0x02, Authenticator: 57f85015c59ff8545b578c4707574d8b
+	  EAP-Message Attribute (79), length: 255, Value:  [|radius]
+	  EAP-Message Attribute (79), length: 255, Value:  [|radius]
+	  EAP-Message Attribute (79), length: 255, Value:  [|radius]
+	  EAP-Message Attribute (79), length: 247, Value:  [|radius]
+	  Message-Authenticator Attribute (80), length: 18, Value: @.=.|.<]..V.y..5
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+17:06:36.765572 IP (tos 0x0, ttl 64, id 25865, offset 0, flags [none], proto UDP (17), length 166)
+    127.0.0.1.59357 > 127.0.0.1.1812: RADIUS, length: 138
+	Access-Request (1), id: 0x03, Authenticator: 2b3d38ea694fc45572e219a281ae643f
+	  User-Name Attribute (1), length: 7, Value: priya
+	  NAS-IP-Address Attribute (4), length: 6, Value: 127.0.0.1
+	  Calling-Station-Id Attribute (31), length: 19, Value: 02-00-00-00-00-01
+	  Framed-MTU Attribute (12), length: 6, Value: 1400
+	  NAS-Port-Type Attribute (61), length: 6, Value: Wireless - IEEE 802.11
+	  Service-Type Attribute (6), length: 6, Value: Framed
+	  Connect-Info Attribute (77), length: 24, Value: CONNECT 11Mbps 802.11b
+	  EAP-Message Attribute (79), length: 8, Value: Response (2), id 187, len 6
+		 Type unknown (25)
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+	  Message-Authenticator Attribute (80), length: 18, Value: .....+'...%<e...
+17:06:36.767573 IP (tos 0x0, ttl 64, id 54294, offset 0, flags [none], proto UDP (17), length 248)
+    127.0.0.1.1812 > 127.0.0.1.59357: RADIUS, length: 220
+	Access-Challenge (11), id: 0x03, Authenticator: c578434e24f2ba656ae59a6cd7e451f2
+	  EAP-Message Attribute (79), length: 164, Value: Request (1), id 188, len 162
+		 Type unknown (25)
+	  Message-Authenticator Attribute (80), length: 18, Value: .(.IcR.F..3..i..
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+17:06:36.774380 IP (tos 0x0, ttl 64, id 25866, offset 0, flags [none], proto UDP (17), length 263)
+    127.0.0.1.59357 > 127.0.0.1.1812: RADIUS, length: 235
+	Access-Request (1), id: 0x04, Authenticator: 30032463e050c32eb4a4a4c986e880c3
+	  User-Name Attribute (1), length: 7, Value: priya
+	  NAS-IP-Address Attribute (4), length: 6, Value: 127.0.0.1
+	  Calling-Station-Id Attribute (31), length: 19, Value: 02-00-00-00-00-01
+	  Framed-MTU Attribute (12), length: 6, Value: 1400
+	  NAS-Port-Type Attribute (61), length: 6, Value: Wireless - IEEE 802.11
+	  Service-Type Attribute (6), length: 6, Value: Framed
+	  Connect-Info Attribute (77), length: 24, Value: CONNECT 11Mbps 802.11b
+	  EAP-Message Attribute (79), length: 105, Value: Response (2), id 188, len 103
+		 Type unknown (25)
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+	  Message-Authenticator Attribute (80), length: 18, Value: 5.........z../..
+17:06:36.785081 IP (tos 0x0, ttl 64, id 54298, offset 0, flags [none], proto UDP (17), length 143)
+    127.0.0.1.1812 > 127.0.0.1.59357: RADIUS, length: 115
+	Access-Challenge (11), id: 0x04, Authenticator: d853d928667116c46a14d7b0ecfaff7c
+	  EAP-Message Attribute (79), length: 59, Value: Request (1), id 189, len 57
+		 Type unknown (25)
+	  Message-Authenticator Attribute (80), length: 18, Value: sm%..+.n..Ev.,..
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+17:06:36.786247 IP (tos 0x0, ttl 64, id 25867, offset 0, flags [none], proto UDP (17), length 166)
+    127.0.0.1.59357 > 127.0.0.1.1812: RADIUS, length: 138
+	Access-Request (1), id: 0x05, Authenticator: 5f947da68385ae1f1de8a6845e559d8a
+	  User-Name Attribute (1), length: 7, Value: priya
+	  NAS-IP-Address Attribute (4), length: 6, Value: 127.0.0.1
+	  Calling-Station-Id Attribute (31), length: 19, Value: 02-00-00-00-00-01
+	  Framed-MTU Attribute (12), length: 6, Value: 1400
+	  NAS-Port-Type Attribute (61), length: 6, Value: Wireless - IEEE 802.11
+	  Service-Type Attribute (6), length: 6, Value: Framed
+	  Connect-Info Attribute (77), length: 24, Value: CONNECT 11Mbps 802.11b
+	  EAP-Message Attribute (79), length: 8, Value: Response (2), id 189, len 6
+		 Type unknown (25)
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+	  Message-Authenticator Attribute (80), length: 18, Value: f.,....3g..h....
+17:06:36.789198 IP (tos 0x0, ttl 64, id 54299, offset 0, flags [none], proto UDP (17), length 126)
+    127.0.0.1.1812 > 127.0.0.1.59357: RADIUS, length: 98
+	Access-Challenge (11), id: 0x05, Authenticator: b6bbd5028bb1a2b1e7259b1b45ce551f
+	  EAP-Message Attribute (79), length: 42, Value: Request (1), id 190, len 40
+		 Type unknown (25)
+	  Message-Authenticator Attribute (80), length: 18, Value: ......K`.......,
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+17:06:36.789972 IP (tos 0x0, ttl 64, id 25868, offset 0, flags [none], proto UDP (17), length 201)
+    127.0.0.1.59357 > 127.0.0.1.1812: RADIUS, length: 173
+	Access-Request (1), id: 0x06, Authenticator: 5b7802f02380a26caada6407d8cc440f
+	  User-Name Attribute (1), length: 7, Value: priya
+	  NAS-IP-Address Attribute (4), length: 6, Value: 127.0.0.1
+	  Calling-Station-Id Attribute (31), length: 19, Value: 02-00-00-00-00-01
+	  Framed-MTU Attribute (12), length: 6, Value: 1400
+	  NAS-Port-Type Attribute (61), length: 6, Value: Wireless - IEEE 802.11
+	  Service-Type Attribute (6), length: 6, Value: Framed
+	  Connect-Info Attribute (77), length: 24, Value: CONNECT 11Mbps 802.11b
+	  EAP-Message Attribute (79), length: 43, Value: Response (2), id 190, len 41
+		 Type unknown (25)
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+	  Message-Authenticator Attribute (80), length: 18, Value: ....M..?..Am.h.1
+17:06:36.794311 IP (tos 0x0, ttl 64, id 54300, offset 0, flags [none], proto UDP (17), length 160)
+    127.0.0.1.1812 > 127.0.0.1.59357: RADIUS, length: 132
+	Access-Challenge (11), id: 0x06, Authenticator: 9635cc01bf977df2c85648518597fb5f
+	  EAP-Message Attribute (79), length: 76, Value: Request (1), id 191, len 74
+		 Type unknown (25)
+	  Message-Authenticator Attribute (80), length: 18, Value: ..;.bO.G..../V.d
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+17:06:36.796509 IP (tos 0x0, ttl 64, id 25869, offset 0, flags [none], proto UDP (17), length 255)
+    127.0.0.1.59357 > 127.0.0.1.1812: RADIUS, length: 227
+	Access-Request (1), id: 0x07, Authenticator: b3e5de44c7e443262bdb70ca7d8dc5c0
+	  User-Name Attribute (1), length: 7, Value: priya
+	  NAS-IP-Address Attribute (4), length: 6, Value: 127.0.0.1
+	  Calling-Station-Id Attribute (31), length: 19, Value: 02-00-00-00-00-01
+	  Framed-MTU Attribute (12), length: 6, Value: 1400
+	  NAS-Port-Type Attribute (61), length: 6, Value: Wireless - IEEE 802.11
+	  Service-Type Attribute (6), length: 6, Value: Framed
+	  Connect-Info Attribute (77), length: 24, Value: CONNECT 11Mbps 802.11b
+	  EAP-Message Attribute (79), length: 97, Value: Response (2), id 191, len 95
+		 Type unknown (25)
+	  State Attribute (24), length: 18, Value: .>n'..wg....x.Pk
+	  Message-Authenticator Attribute (80), length: 18, Value: .D.....0.?a...{.
+17:06:36.799772 IP (tos 0x0, ttl 64, id 54302, offset 0, flags [none], proto UDP (17), length 168)
+    127.0.0.1.1812 > 127.0.0.1.59357: RADIUS, length: 140
+	Access-Challenge (11), id: 0x07, Authenticator: d287505ed99c453326e7be72e752e93e
